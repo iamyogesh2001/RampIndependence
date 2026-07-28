@@ -10,13 +10,12 @@ Companion code, data pipeline, and extended results for the IECON 2026 submissio
 
 | Stage | Status |
 |---|---|
-| Submission | 🔄 Pending |
-| Peer Review | 🔄 Pending |
+| Submission | ✅ Submitted |
 | Decision | 🔄 Pending |
 | Camera-Ready | 🔄 Pending |
 | IEEE Xplore | 🔄 Pending |
 
-*Update this table as the paper progresses through review (swap 🔄 for ✅ once each stage completes). Conference: IEEE IECON 2026, the 52nd Annual Conference of the IEEE Industrial Electronics Society, Doha, Qatar, October 18-21, 2026.*
+*Conference: IEEE IECON 2026, the 52nd Annual Conference of the IEEE Industrial Electronics Society, Doha, Qatar, October 18-21, 2026.*
 
 ## Results at a Glance
 
