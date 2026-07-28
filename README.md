@@ -10,13 +10,35 @@ Companion code, data pipeline, and extended results for the IECON 2026 submissio
 
 | Stage | Status |
 |---|---|
-| Submission | ⬜ Not yet submitted |
-| Peer Review | ⬜ Pending |
-| Decision | ⬜ Pending |
-| Camera-Ready | ⬜ Pending |
-| IEEE Xplore | ⬜ Pending |
+| Submission | 🔄 Pending |
+| Peer Review | 🔄 Pending |
+| Decision | 🔄 Pending |
+| Camera-Ready | 🔄 Pending |
+| IEEE Xplore | 🔄 Pending |
 
-*Update this table as the paper progresses through review. Conference: IEEE IECON 2026, the 52nd Annual Conference of the IEEE Industrial Electronics Society, Doha, Qatar, October 18-21, 2026.*
+*Update this table as the paper progresses through review (swap 🔄 for ✅ once each stage completes). Conference: IEEE IECON 2026, the 52nd Annual Conference of the IEEE Industrial Electronics Society, Doha, Qatar, October 18-21, 2026.*
+
+## Results at a Glance
+
+**Figure 1: Aggregate ramp rate time series.** The aggregate cluster ramp rate magnitude over the full 400-minute measurement window, with P95 and P99 levels marked. Large ramp events recur throughout normal operation rather than occurring once.
+
+![Aggregate ramp rate time series](r_fig1_ramp_ts.png)
+
+**Figure 2: Per-workload ramp rate statistics.** Ramp severity with 95 percent bootstrap confidence intervals on the P95 and P99 estimates. Ramp severity varies by more than an order of magnitude across co-located workloads on the same cluster.
+
+![Per-workload ramp rate statistics](r_fig2_ramp_stats.png)
+
+**Figure 3: Cross-workload ramp rate correlation matrix.** All off-diagonal entries are close to zero, indicating that co-located workloads on this cluster ramp independently of one another.
+
+![Cross-workload correlation matrix](r_fig5_corr.png)
+
+**Figure 4: Superposition test.** Ratio of aggregate ramp variance to the sum of individual workload ramp variances, computed on the full trace and on independent first and second halves. A ratio near 1.0 indicates additive, independent behavior, and the result is stable across all three windows.
+
+![Superposition test](r_fig4_superposition.png)
+
+**Figure 5: ROCOF sensitivity sweep.** Equivalent-step rate of change of frequency versus assumed system inertia constant H, for the maximum and 95th-percentile observed aggregate ramp scaled to a 1500 MW equivalent facility.
+
+![ROCOF sensitivity sweep](r_fig5_rocof_sweep.png)
 
 ## What This Repository Contains
 
